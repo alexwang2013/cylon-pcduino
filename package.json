@@ -1,0 +1,22 @@
+{
+  "name": "cylon-pcduino",
+  "version": "0.1.0",
+  "main": "lib/cylon-pcduino.js",
+  "description": "Cylon adaptor for pcduino",
+  "homepage": "http://www.tinymid.com",
+  "author": "Zhaoqiang Wang <zhaoqiangwangapp@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexwang2013/cylon-pcduino"
+  },
+
+  "license": "Apache 2.0",
+
+  "peerDependencies": {
+    "cylon":      ">= 0.21.0 < 1"
+  },
+
+  "dependencies": {
+    "cylon":      "~0.21.0"
+  }
+}
