@@ -29,3 +29,11 @@ example:
 	}).start();
 
 
+Todo:
+	1, add pwm-pin.
+	2, add analog pin.
+	3, add i2c
+
+License:
+
+Copyright (c) 2014 Zhaoqiang Wang. Licensed under the Apache 2.0 license.
