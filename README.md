@@ -1,18 +1,17 @@
-cylon-pcduino
-=============
-
 #cylon-pcduino
 
 adapter for cylon on pcduino
 
 
-##usage:
+##usage
+
 install the cylon-pcduino by the following command:
 
 ````
 npm install cylon-pcduino
 ````
 ##example
+
 ````js
 	'use strict';
 
@@ -35,6 +34,7 @@ npm install cylon-pcduino
 ````
 
 ##Todo
+
 1, add pwm-pin.
 2, add analog pin.
 3, add i2c
