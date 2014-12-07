@@ -2,14 +2,33 @@
 
 adapter for cylon on pcduino
 
+##Install Node.js
 
-##usage
+Make sure you have internet connection and open up the terminal on the RPi.
 
-install the cylon-pcduino by the following command:
+Installing an ARM-version of Node has become very easy:
+````
+wget http://node-arm.herokuapp.com/node_latest_armhf.deb 
+sudo dpkg -i node_latest_armhf.deb
+````
+That's it, basically. It shouldn't take too long to download and install.
+
+To make sure it ran correctly, run node -v. It should return the current version.
+
+Running npm -v or npm --version still gave me the known Illegal instruction error. However, installing modules with npm install works.
+
+##install cylon-pcduino by the following command:
 
 ````
 npm install cylon-pcduino
 ````
+
+if you face the issue ssl error: Cert_not_yet_valid, that is because your system date of Ubuntu. change the date to the current date by usting
+````
+sudo date 120622012014.59
+````
+replace the 120622012014.59 to current time
+
 ##example
 
 ````js
