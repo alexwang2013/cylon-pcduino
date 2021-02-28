@@ -1,8 +1,8 @@
-#cylon-pcduino
+# cylon-pcduino
 
 adapter for cylon on pcduino
 
-##Install Node.js
+## Install Node.js
 
 Make sure you have internet connection and open up the terminal on the RPi.
 
@@ -17,7 +17,7 @@ To make sure it ran correctly, run node -v. It should return the current version
 
 Running npm -v or npm --version still gave me the known Illegal instruction error. However, installing modules with npm install works.
 
-##install cylon-pcduino by the following command:
+## install cylon-pcduino by the following command:
 
 ````
 npm install cylon-pcduino
@@ -29,7 +29,7 @@ sudo date 120622012014.59
 ````
 replace the 120622012014.59 to current time
 
-##example
+## example
 
 ````js
 	'use strict';
@@ -52,12 +52,12 @@ replace the 120622012014.59 to current time
 	}).start();
 ````
 
-##Todo
+## Todo
 
 1, add pwm-pin.
 2, add analog pin.
 3, add i2c
 
-##License
+## License
 
 Copyright (c) 2014 Zhaoqiang Wang. Licensed under the Apache 2.0 license.
